@@ -1,0 +1,40 @@
+https://www.youtube.com/watch?v=a37BL0stIuM
+https://github.com/python-engineer/chatbot-deployment
+https://github.com/daniyalmalikoo7/chatbot-python/blob/main/standalone-frontend/app.js
+
+
+https://github.com/hitchcliff/front-end-chatjs
+
+#git shell
+cd /d/2020/coding/flask_chatbot_pytorch_javascript
+git clone https://github.com/python-engineer/chatbot-deployment.git
+
+#dos shell
+d:
+cd D:\2020\coding\flask_chatbot_pytorch_javascript
+python -m venv chatbot_env
+chatbot_env\Scripts\activate.bat
+pip install Flask torch torchvision nltk
+
+python
+>>> import nltk
+>>> nltk.download('punkt')
+>>> exit()
+python train.py
+python chat.py
+
+
+#also look at this, interface is less 'nice'
+https://dev.to/dennismaina/how-to-create-an-ai-chatbot-in-python-and-flask-1c3m
+https://github.com/mainadennis/An-AI-Chatbot-in-Python-and-Flask
+#one of several chatterbot chatbots
+https://dev.to/sahilrajput/build-a-chatbot-using-flask-in-5-minutes-574i
+https://studygyaan.com/data-science-ml/creating-a-resume-chatbot-using-chatterbot-and-flask
+
+
+#-------------------------------------------------------------------------------
+<!-- <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image"> -->
+
+tools used to modify svg files
+https://pixelied.com/features/svg-editor  (change color)
+https://www.iloveimg.com/resize-image/resize-svg
