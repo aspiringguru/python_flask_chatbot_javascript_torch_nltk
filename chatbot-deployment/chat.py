@@ -37,6 +37,7 @@ def get_response(msg):
         return "what is your tracking number?"
     elif msg=="3":
         return "what is your name?"
+        # expand this logic to interact with user to capture user input, retrieve data from database, give data to user.
     sentence = tokenize(msg)
     X = bag_of_words(sentence, all_words)
     X = X.reshape(1, X.shape[0])
